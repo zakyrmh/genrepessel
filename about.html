@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About Forum Genre Pessel" />
+    <meta name="keyword" content="Genre" />
+    <meta name="keyword" content="Duta Genre" />
+    <meta name="keyword" content="Genre Pessel" />
+    <meta name="author" content="Zaky Ramadhan" />
+
+    <title>About - Forum Genre Pessel</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar bg-base-100">
+        <div class="flex-1">
+            <a class="btn btn-ghost normal-case text-lg">
+                <img class="w-12" src="./img/logo.png" alt="" /> Forum Genre Pessel
+            </a>
+        </div>
+        <div x-data="{ open: false }" class="flex-none dropdown">
+            <button class="md:hidden" @click="open = !open" :aria-expanded="open ? 'true' : 'false'">
+                <i class="uil uil-apps mr-4"></i>
+            </button>
+            <ul class="hidden menu md:menu-horizontal px-1 menu-compact mt-3 p-2right-2">
+                <li class="mr-4">
+                    <a class="text-lg font-medium" href="index.html">Home</a>
+                </li>
+                <li class="mr-4">
+                    <a class="text-lg font-medium" href="about.html">About</a>
+                </li>
+                <li class="mr-4">
+                    <a class="text-lg font-medium" href="daftar.html">Daftar</a>
+                </li>
+            </ul>
+            <ul x-show="open" @click.away="open = false"
+                class="menu px-1 menu-compact dropdown-content mt-3 p-2 bg-white shadow rounded-box w-52 right-2">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="daftar.html">Daftar</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- HOME IMAGE -->
+    <section class="mt-8">
+        <h1 class="text-center text-2xl font-bold mb-4">Join With Us !</h1>
+        <div class="md:flex md:justify-center md:items-center">
+            <div class="md:w-80 md:mr-6">
+                <img class="mx-auto mb-3" src="./img/winner genre 2022.jpg" alt="Winner Duta Genre 2022" />
+            </div>
+            <div class="mx-4 md:w-96">
+                <p class="mb-2">Genre, Generasi Berencana.</p>
+                <p class="text-justify">
+                    Duta Genre bukan tentang, seberapa cantik dan menarik kamu. Tapi
+                    tentang seberapa komitmen kamu dalam berkontribusi melalui aksi
+                    nyata terhadap lingkungan sekitar mu. Genre memiliki makna yang
+                    luas. Mengedukasi, memotivasi, menginspirasi, dan belajar banyak
+                    hal. Forum genre kab pesisir selatan adalah rumah. Untuk
+                    mengekspresikan diri, belajar how to be brave, how to learn
+                    anything, how to know each other and loving all the human. Semua
+                    kalangan kita hadapi. Anak-anak?, remaja? Dewasa? Semuanya.. tak
+                    kenal usia. Meskipun hanya seorang remaja, generasi berencana akan
+                    menjadi agent of change untuk membantu Indonesia. 1 kata untuk
+                    GenRe, KEREN.
+                </p>
+                <p>Salam GenRe.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PENGURUS -->
+    <section class="mt-8">
+        <h1 class="text-center text-2xl font-bold mb-4">What People Say !</h1>
+        <div id="carouselExampleControls" class="carousel slide relative" data-bs-ride="carousel">
+            <div class="carousel-inner relative w-full overflow-hidden">
+                <!-- 1 -->
+                <div class="carousel-item active relative float-left w-full">
+                    <div class="card w-80 h-[40rem] bg-base-100 shadow-xl mx-auto">
+                        <figure class="px-10 pt-10">
+                            <img src="./img/Dimas Maulana Syafeli.jpg" alt="Dimas Maulana Syafeli" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">
+                                Dimas Maulana Syafeli, A.Md, RO, S.Km
+                            </h2>
+                            <p>Pembina Forum GenRe Kab. Pessel Tahun)</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Architecto unde illo dolore magnam aut repellat recusandae
+                                accusamus sunt maiores laborum?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="carousel-item relative float-left w-full">
+<<<<<<< HEAD
+                    <div class="card w-80 h-[40rem] bg-base-100 shadow-xl mx-auto">
+=======
+                    <div class="card w-64 bg-base-100 shadow-xl mx-auto">
+>>>>>>> 2988903c32f2b57c3f456c1bb0b6161e684ce9d8
+                        <figure class="px-10 pt-10">
+                            <img src="./img/Bayu Dwi Aditya.jpg" alt="Bayu Dwi Aditya" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Bayu Dwi Aditya, A.Md</h2>
+                            <p>(Pembina Forum GenRe Kab. Pessel Tahun 2023)</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Architecto unde illo dolore magnam aut repellat recusandae
+                                accusamus sunt maiores laborum?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="carousel-item relative float-left w-full">
+<<<<<<< HEAD
+                    <div class="card w-80 h-[40rem] bg-base-100 shadow-xl mx-auto">
+=======
+                    <div class="card w-64 bg-base-100 shadow-xl mx-auto">
+>>>>>>> 2988903c32f2b57c3f456c1bb0b6161e684ce9d8
+                        <figure class="px-10 pt-10">
+                            <img src="./img/Firda Gusra Nanda.jpg" alt="Firda Gusra Nanda" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Firda Gusra Nanda</h2>
+                            <p class="mb-2">
+                                (Ketua Pelaksana Duta GenRe Kab. Pessel Tahun 2023)
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Architecto unde illo dolore magnam aut repellat recusandae
+                                accusamus sunt maiores laborum?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="carousel-item relative float-left w-full">
+                    <div class="card w-80 h-[40rem] bg-base-100 shadow-xl mx-auto">
+                        <figure class="px-10 pt-10">
+                            <img src="./img/Wahyuni Firma Aulia.jpg" alt="Wahyuni Firma Aulia" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Wahyuni Firma Aulia</h2>
+                            <p class="mb-2">(Pembina Forum GenRe Kab. Pessel)</p>
+                            <p>
+                                Progress, process and success adalah motto saya, tak jauh dari
+                                GenRe. Saya percaya, semua mimpi butuh rencana yang matang
+                                untuk mewujudkannya. Oleh karena itu, saya di sini bersama
+                                Forum GenRe Kab. Pesisir Selatan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="carousel-item relative float-left w-full">
+                    <div class="card w-80 h-[40rem] bg-base-100 shadow-xl mx-auto">
+                        <figure class="px-10 pt-10">
+                            <img src="./img/Habel Wilefri Al Hadad.jpg" alt="Habel Wilefri Al Hadad"
+                                class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Habel Wilefri Al Hadad</h2>
+                            <p class="mb-2">(Ketua Forum GenRe Kab. Pessel)</p>
+                            <p>
+                                Anyone can be anything, remaja adalah penerus bagi bangsa
+                                Indonesia, remaja adalah tiang penggerak bangsa selanjutnya,
+                                oleh karena itu Forum GenRe Kab. Pessel hadir untuk remaja di
+                                kab. Pesisir Selatan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="carousel-item relative float-left w-full">
+                    <div class="card w-80 h-[40rem] bg-base-100 shadow-xl mx-auto">
+                        <figure class="px-10 pt-10">
+                            <img src="./img/IMG-20220202-WA0016_edited.jpg" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Dandi Okta Putra</h2>
+                            <p class="mb-2">
+                                (The Winner Duta GenRe Putra Kab. Pesisir Selatan 2021)
+                            </p>
+                            <p>
+                                Generasi adalah tonggak awal kemajuan masa depan, dibarengi
+                                dengan rencana yang matang. Melalui GenRe, jadilah bagian dari
+                                pengisi generasi emas tahun 2045 dan masa depan cemerlang.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 7 -->
+                <div class="carousel-item relative float-left w-full">
+                    <div class="card w-80 h-[40rem] bg-base-100 shadow-xl mx-auto">
+                        <figure class="px-10 pt-10">
+                            <img src="https://placeimg.com/200/200/arch" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Athaya AndAf Ghanny</h2>
+                            <p class="mb-2">
+                                (The Winner Duta GenRe Putri Kab.Pesisir Selatan 2021)
+                            </p>
+                            <p>
+                                Suatu kehormatan bisa menjadi bagian dari GenRe dan diberi
+                                kesempatan belajar banyak hal. GenRe adalah keluarga bagi
+                                saya. Knowing each other, carefully. Intinya, tidak ada minus
+                                nya.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 8 -->
+                <div class="carousel-item relative float-left w-full">
+                    <div class="card w-80 h-[40rem] bg-base-100 shadow-xl mx-auto">
+                        <figure class="px-10 pt-10">
+                            <img src="https://placeimg.com/200/200/arch" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Lingga Anugera Pratama</h2>
+                            <p class="mb-2">
+                                (Ru 1 duta genre Putra kabupaten pesisir Selatan)
+                            </p>
+                            <p>
+                                Hidup untuk umat mati untuk umat sebuah kalimat yang Declaring
+                                I'm ready to live to benefit. melalui genre kalimat tadi
+                                perlahan-lahan saya genggam dan saya merasa I've become the
+                                person I max.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 9 -->
+                <div class="carousel-item relative float-left w-full">
+                    <div class="card w-80 h-[40rem] bg-base-100 shadow-xl mx-auto">
+                        <figure class="px-10 pt-10">
+                            <img src="https://placeimg.com/200/200/arch" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Rintami Panglipuringtyas</h2>
+                            <p class="mb-2">(The Winner Duta GenRe Putri 2018)</p>
+                            <p>
+                                Melalui generasi berencana saya bisa membawa perubahan dan
+                                kemajuan terhadap life skill yg saya punya, dengan adanya
+                                generasi berencana saya lebih percaya diri untuk
+                                berkreatifitas dan mengexplore bakat yg ada pada diri saya.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 10 -->
+                <div class="carousel-item relative float-left w-full">
+                    <div class="card w-80 h-[40rem] bg-base-100 shadow-xl mx-auto">
+                        <figure class="px-10 pt-10">
+                            <img src="https://placeimg.com/200/200/arch" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Jayandra</h2>
+                            <p class="mb-2">(Top 5 Duta GenRe Indonesia 2019)</p>
+                            <p>
+                                Di patahkan kembalilah untuk tumbuh, GenRe merupakan suatu
+                                wadah yang di besarkan dan membesarkan kita semuanya, karena
+                                GenRe tidak mampu untuk tumbuh dengan sendiri melainkan ketika
+                                bersama.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 11 -->
+                <div class="carousel-item relative float-left w-full">
+                    <div class="card w-80 h-[40rem] bg-base-100 shadow-xl mx-auto">
+                        <figure class="px-10 pt-10">
+                            <img src="https://placeimg.com/200/200/arch" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Ahmad Farezi</h2>
+                            <p class="mb-2">(Top 10 Duta GenRe Indonesia 2020)</p>
+                            <p>
+                                Ini bukan tentang aku ataupun pencapaian ku, tapi ini tentang
+                                Kamu, aku, dan Kita semua untuk bisa menjadi representatif
+                                bagi diri sendiri dan berguna bagi banyak orang.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ACHIEVED -->
+    <section class="mt-8">
+        <h1 class="text-center text-2xl font-bold mb-4">What We Achieved</h1>
+        <div id="carouselExampleControls" class="carousel slide relative" data-bs-ride="carousel">
+            <div class="carousel-inner relative w-full overflow-hidden">
+                <div class="carousel-item active relative float-left w-full">
+                    <div class="text-center">
+                        <h2 class="text-xl font-semibold mb-2">2021</h2>
+                        <ul class="mx-8 text-justify md:mx-16">
+                            <li>
+                                1. Yovinda Fitri (Jura Harapan 2 MTQ Nasional ke 39 Provinsi
+                                Sumatera Barat cabang Bintang Qasidah Remaja Pa 2021)
+                            </li>
+                            <li>
+                                2. Wahyuni Firma Aulia (Juara 2 Musikalisasi Puisi
+                                Se-Poltekkes Kemenkes Indonesia Tahun 2021)
+                            </li>
+                            <li>
+                                3. Selvi Junia Listi (Juara 2 Solo Song FL2SN tingkat Provinsi
+                                Sumatera Barat)
+                            </li>
+                            <li>
+                                4. Selvi Junia Listi (Juara Harapan 1 MTQ tingkat Provinsi
+                                Sumatera Barat
+                            </li>
+                            <li>
+                                5. Ahmad Farezi (Relawan Termuda oleh Arah Pemuda Indonesia,
+                                Raja Ampat, Papua Barat 2021 (Delegasi Sumatera Barat))
+                            </li>
+                            <li>
+                                6. Ahmad Farezi (Relawan Termuda oleh Pilar Inspirasi Negeri,
+                                Desa Sekayan Provinsi Riau (Delegasi Sumatera Barat))
+                            </li>
+                            <li>
+                                7. Ahmad Farezi (Penerima Beasiswa Indonesia Modrn Quis 2021)
+                            </li>
+                            <li>
+                                8. Muhammad Yusuf (Penerima Beasiswa Studi Berkelanjutan (BSB)
+                                2021-sekarang)
+                            </li>
+                            <li>
+                                9. Athaya Andaf Ghanny (RU III Duta Genre Provinsi Sumatera
+                                Barat 2021)
+                            </li>
+                            <li>
+                                10. Dandi Okta Putra (Duta Genre Sosial Media Putra Provinsi
+                                Sumatera Barat 2021)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="carousel-item relative float-left w-full">
+                    <div class="text-center">
+                        <h2 class="text-xl font-semibold mb-2">2020</h2>
+                        <ul class="mx-8 text-justify md:mx-16">
+                            <li>
+                                1. Wahyuni Firma Aulia (Juara 3 Cipta dan Baca Puisi
+                                Se-Poltekkes Kemenkes Indonesia 2020)
+                            </li>
+                            <li>
+                                2. Selvi Junia Listi (Peserta PAI tingkat Provinsi Sumatera
+                                Barat)
+                            </li>
+                            <li>
+                                3. Ahmad Farezi (Pemuda Chapter Singapura oleh Studec
+                                International (Delegasi Indonesia))
+                            </li>
+                            <li>
+                                4. Ahmad Farezi (Youth Summit Saudi Arabia 2020 (Delegasi
+                                Indonesia))
+                            </li>
+                            <li>
+                                5. Ahmad Farezi (Global Al Summit 2020 (Delegasi Indonesia))
+                            </li>
+                            <li>
+                                6. Ahmad Farezi (TOP 10 Duta Genre Indonesia oleh BKKBN Pusat
+                                2020)
+                            </li>
+                            <li>
+                                7. Ahmad Farezi (Harapan 1 Lomba Orasi Budaya oleh Balai
+                                Pelestarian Budaya Sumatera Barat 2020)
+                            </li>
+                            <li>
+                                8. Ahmad Farezi (Lomba Debat Ombusman (Pelayanan Publik) 2020)
+                            </li>
+                            <li>
+                                9. Ahmad Farezi (Harapan 1 Rodoku (Cerita Bahasa Jepang) oleh
+                                lembaga Pendidikan dan Olahraga Sumatera Barat 2020)
+                            </li>
+                            <li>
+                                10. Ahmad Farezi (Juara 1 Duta Genre Provinsi Sumatera Barat
+                                2021)
+                            </li>
+                            <li>
+                                11. Hanifah Wirman (Juara 3 Lomba Podcast Genre dalam rangka
+                                Adujak Genre Provinsi Sumatera Barat 2020
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOCIAL MEDIA -->
+    <section class="mt-8">
+        <h1 class="text-center text-2xl font-bold mb-4">Social Media</h1>
+        <div class="md:flex md:justify-center">
+            <div class="md:mr-6">
+                <div class="flex flex-col items-center mb-4">
+                    <a href="https://www.youtube.com/channel/UCY6Y7GEAFw0NDh427qsuxUw?view_as=subscriber"
+                        target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24"
+                            class="w-6 mr-2">
+                            <path fill="black"
+                                d="M23,9.71a8.5,8.5,0,0,0-.91-4.13,2.92,2.92,0,0,0-1.72-1A78.36,78.36,0,0,0,12,4.27a78.45,78.45,0,0,0-8.34.3,2.87,2.87,0,0,0-1.46.74c-.9.83-1,2.25-1.1,3.45a48.29,48.29,0,0,0,0,6.48,9.55,9.55,0,0,0,.3,2,3.14,3.14,0,0,0,.71,1.36,2.86,2.86,0,0,0,1.49.78,45.18,45.18,0,0,0,6.5.33c3.5.05,6.57,0,10.2-.28a2.88,2.88,0,0,0,1.53-.78,2.49,2.49,0,0,0,.61-1,10.58,10.58,0,0,0,.52-3.4C23,13.69,23,10.31,23,9.71ZM9.74,14.85V8.66l5.92,3.11C14,12.69,11.81,13.73,9.74,14.85Z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCY6Y7GEAFw0NDh427qsuxUw?view_as=subscriber"
+                        target="_blank" rel="noopener noreferrer">Dutagenre Pessel</a>
+                </div>
+                <div class="flex flex-col items-center mb-4">
+                    <a href="https://www.instagram.com/genre_pesisirselatan/?hl=en" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24"
+                            class="w-6 mr-2">
+                            <path fill="black"
+                                d="M17.34,5.46h0a1.2,1.2,0,1,0,1.2,1.2A1.2,1.2,0,0,0,17.34,5.46Zm4.6,2.42a7.59,7.59,0,0,0-.46-2.43,4.94,4.94,0,0,0-1.16-1.77,4.7,4.7,0,0,0-1.77-1.15,7.3,7.3,0,0,0-2.43-.47C15.06,2,14.72,2,12,2s-3.06,0-4.12.06a7.3,7.3,0,0,0-2.43.47A4.78,4.78,0,0,0,3.68,3.68,4.7,4.7,0,0,0,2.53,5.45a7.3,7.3,0,0,0-.47,2.43C2,8.94,2,9.28,2,12s0,3.06.06,4.12a7.3,7.3,0,0,0,.47,2.43,4.7,4.7,0,0,0,1.15,1.77,4.78,4.78,0,0,0,1.77,1.15,7.3,7.3,0,0,0,2.43.47C8.94,22,9.28,22,12,22s3.06,0,4.12-.06a7.3,7.3,0,0,0,2.43-.47,4.7,4.7,0,0,0,1.77-1.15,4.85,4.85,0,0,0,1.16-1.77,7.59,7.59,0,0,0,.46-2.43c0-1.06.06-1.4.06-4.12S22,8.94,21.94,7.88ZM20.14,16a5.61,5.61,0,0,1-.34,1.86,3.06,3.06,0,0,1-.75,1.15,3.19,3.19,0,0,1-1.15.75,5.61,5.61,0,0,1-1.86.34c-1,.05-1.37.06-4,.06s-3,0-4-.06A5.73,5.73,0,0,1,6.1,19.8,3.27,3.27,0,0,1,5,19.05a3,3,0,0,1-.74-1.15A5.54,5.54,0,0,1,3.86,16c0-1-.06-1.37-.06-4s0-3,.06-4A5.54,5.54,0,0,1,4.21,6.1,3,3,0,0,1,5,5,3.14,3.14,0,0,1,6.1,4.2,5.73,5.73,0,0,1,8,3.86c1,0,1.37-.06,4-.06s3,0,4,.06a5.61,5.61,0,0,1,1.86.34A3.06,3.06,0,0,1,19.05,5,3.06,3.06,0,0,1,19.8,6.1,5.61,5.61,0,0,1,20.14,8c.05,1,.06,1.37.06,4S20.19,15,20.14,16ZM12,6.87A5.13,5.13,0,1,0,17.14,12,5.12,5.12,0,0,0,12,6.87Zm0,8.46A3.33,3.33,0,1,1,15.33,12,3.33,3.33,0,0,1,12,15.33Z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/genre_pesisirselatan/?hl=en" target="_blank"
+                        rel="noopener noreferrer">@genre_pesisirselatan</a>
+                </div>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <div class="mb-4">
+                    <a class="flex" href="http://wa.me/6281268601830" target="_blank" rel="noopener noreferrer">
+                        <svg class="w-6 mr-2" version="1.1" id="svg8" inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+                            sodipodi:docname="1881161.svg" xmlns:cc="http://creativecommons.org/ns#"
+                            xmlns:dc="http://purl.org/dc/elements/1.1/"
+                            xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                            xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                            xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24"
+                            style="enable-background: new 0 0 24 24" xml:space="preserve">
+                            <path fill="black" id="path4" inkscape:connector-curvature="0"
+                                d="M16.6,14c-0.2-0.1-1.5-0.7-1.7-0.8c-0.2-0.1-0.4-0.1-0.6,0.1c-0.2,0.2-0.6,0.8-0.8,1c-0.1,0.2-0.3,0.2-0.5,0.1c-0.7-0.3-1.4-0.7-2-1.2c-0.5-0.5-1-1.1-1.4-1.7c-0.1-0.2,0-0.4,0.1-0.5c0.1-0.1,0.2-0.3,0.4-0.4c0.1-0.1,0.2-0.3,0.2-0.4c0.1-0.1,0.1-0.3,0-0.4c-0.1-0.1-0.6-1.3-0.8-1.8C9.4,7.3,9.2,7.3,9,7.3c-0.1,0-0.3,0-0.5,0C8.3,7.3,8,7.5,7.9,7.6C7.3,8.2,7,8.9,7,9.7c0.1,0.9,0.4,1.8,1,2.6c1.1,1.6,2.5,2.9,4.2,3.7c0.5,0.2,0.9,0.4,1.4,0.5c0.5,0.2,1,0.2,1.6,0.1c0.7-0.1,1.3-0.6,1.7-1.2c0.2-0.4,0.2-0.8,0.1-1.2C17,14.2,16.8,14.1,16.6,14 M19.1,4.9C15.2,1,8.9,1,5,4.9c-3.2,3.2-3.8,8.1-1.6,12L2,22l5.3-1.4c1.5,0.8,3.1,1.2,4.7,1.2h0c5.5,0,9.9-4.4,9.9-9.9C22,9.3,20.9,6.8,19.1,4.9 M16.4,18.9c-1.3,0.8-2.8,1.3-4.4,1.3h0c-1.5,0-2.9-0.4-4.2-1.1l-0.3-0.2l-3.1,0.8l0.8-3l-0.2-0.3C2.6,12.4,3.8,7.4,7.7,4.9S16.6,3.7,19,7.5C21.4,11.4,20.3,16.5,16.4,18.9" />
+                        </svg>
+                        Firda Gusra Nanda
+                    </a>
+                </div>
+                <div class="mb-4">
+                    <a class="flex" href="http://wa.me/6281374974791" target="_blank" rel="noopener noreferrer">
+                        <svg class="w-6 mr-2" version="1.1" id="svg8" inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+                            sodipodi:docname="1881161.svg" xmlns:cc="http://creativecommons.org/ns#"
+                            xmlns:dc="http://purl.org/dc/elements/1.1/"
+                            xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                            xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                            xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24"
+                            style="enable-background: new 0 0 24 24" xml:space="preserve">
+                            <path fill="black" id="path4" inkscape:connector-curvature="0"
+                                d="M16.6,14c-0.2-0.1-1.5-0.7-1.7-0.8c-0.2-0.1-0.4-0.1-0.6,0.1c-0.2,0.2-0.6,0.8-0.8,1c-0.1,0.2-0.3,0.2-0.5,0.1c-0.7-0.3-1.4-0.7-2-1.2c-0.5-0.5-1-1.1-1.4-1.7c-0.1-0.2,0-0.4,0.1-0.5c0.1-0.1,0.2-0.3,0.4-0.4c0.1-0.1,0.2-0.3,0.2-0.4c0.1-0.1,0.1-0.3,0-0.4c-0.1-0.1-0.6-1.3-0.8-1.8C9.4,7.3,9.2,7.3,9,7.3c-0.1,0-0.3,0-0.5,0C8.3,7.3,8,7.5,7.9,7.6C7.3,8.2,7,8.9,7,9.7c0.1,0.9,0.4,1.8,1,2.6c1.1,1.6,2.5,2.9,4.2,3.7c0.5,0.2,0.9,0.4,1.4,0.5c0.5,0.2,1,0.2,1.6,0.1c0.7-0.1,1.3-0.6,1.7-1.2c0.2-0.4,0.2-0.8,0.1-1.2C17,14.2,16.8,14.1,16.6,14 M19.1,4.9C15.2,1,8.9,1,5,4.9c-3.2,3.2-3.8,8.1-1.6,12L2,22l5.3-1.4c1.5,0.8,3.1,1.2,4.7,1.2h0c5.5,0,9.9-4.4,9.9-9.9C22,9.3,20.9,6.8,19.1,4.9 M16.4,18.9c-1.3,0.8-2.8,1.3-4.4,1.3h0c-1.5,0-2.9-0.4-4.2-1.1l-0.3-0.2l-3.1,0.8l0.8-3l-0.2-0.3C2.6,12.4,3.8,7.4,7.7,4.9S16.6,3.7,19,7.5C21.4,11.4,20.3,16.5,16.4,18.9" />
+                        </svg>
+                        Scerle Griya Putri
+                    </a>
+                </div>
+                <div class="mb-4">
+                    <a class="flex" href="http://wa.me/6283123923055" target="_blank" rel="noopener noreferrer">
+                        <svg class="w-6 mr-2" version="1.1" id="svg8" inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+                            sodipodi:docname="1881161.svg" xmlns:cc="http://creativecommons.org/ns#"
+                            xmlns:dc="http://purl.org/dc/elements/1.1/"
+                            xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                            xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                            xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24"
+                            style="enable-background: new 0 0 24 24" xml:space="preserve">
+                            <path fill="black" id="path4" inkscape:connector-curvature="0"
+                                d="M16.6,14c-0.2-0.1-1.5-0.7-1.7-0.8c-0.2-0.1-0.4-0.1-0.6,0.1c-0.2,0.2-0.6,0.8-0.8,1c-0.1,0.2-0.3,0.2-0.5,0.1c-0.7-0.3-1.4-0.7-2-1.2c-0.5-0.5-1-1.1-1.4-1.7c-0.1-0.2,0-0.4,0.1-0.5c0.1-0.1,0.2-0.3,0.4-0.4c0.1-0.1,0.2-0.3,0.2-0.4c0.1-0.1,0.1-0.3,0-0.4c-0.1-0.1-0.6-1.3-0.8-1.8C9.4,7.3,9.2,7.3,9,7.3c-0.1,0-0.3,0-0.5,0C8.3,7.3,8,7.5,7.9,7.6C7.3,8.2,7,8.9,7,9.7c0.1,0.9,0.4,1.8,1,2.6c1.1,1.6,2.5,2.9,4.2,3.7c0.5,0.2,0.9,0.4,1.4,0.5c0.5,0.2,1,0.2,1.6,0.1c0.7-0.1,1.3-0.6,1.7-1.2c0.2-0.4,0.2-0.8,0.1-1.2C17,14.2,16.8,14.1,16.6,14 M19.1,4.9C15.2,1,8.9,1,5,4.9c-3.2,3.2-3.8,8.1-1.6,12L2,22l5.3-1.4c1.5,0.8,3.1,1.2,4.7,1.2h0c5.5,0,9.9-4.4,9.9-9.9C22,9.3,20.9,6.8,19.1,4.9 M16.4,18.9c-1.3,0.8-2.8,1.3-4.4,1.3h0c-1.5,0-2.9-0.4-4.2-1.1l-0.3-0.2l-3.1,0.8l0.8-3l-0.2-0.3C2.6,12.4,3.8,7.4,7.7,4.9S16.6,3.7,19,7.5C21.4,11.4,20.3,16.5,16.4,18.9" />
+                        </svg>
+                        Kamiliya Salsabila
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="mt-6 mb-4">
+        <p class="text-center text-sm">
+            &#169; 2023 by Zaky Ramadhan. All rigths reserved.
+        </p>
+    </footer>
+
+    <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+    <script src="../node_modules/alpinejs/dist/cdn.min.js"></script>
+    <script src="../node_modules/tw-elements/dist/js/index.min.js"></script>
+</body>
+<<<<<<< HEAD
+
+</html>
+=======
+</html>
+>>>>>>> 2988903c32f2b57c3f456c1bb0b6161e684ce9d8
