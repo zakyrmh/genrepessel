@@ -7163,3 +7163,7 @@ textarea.form-control.is-invalid {
     border-bottom-left-radius: unset;
   }
 }
+
+.text-shadow{
+  text-shadow: 2px 2px #ffff;
+}
