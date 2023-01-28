@@ -7117,3 +7117,7 @@ textarea.form-control.is-invalid {
 .text-shadow {
   text-shadow: 2px 2px 4px #ffff;
 }
+
+.color-white {
+  color: white;
+}
