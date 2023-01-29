@@ -39,3 +39,5 @@ var x = setInterval(function () {
         }, 1000);
     }
 }, 1000);
+
+document.getElementById("linkDaftar1").style.visibility = "hidden";
