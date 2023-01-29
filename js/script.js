@@ -13,6 +13,14 @@ var x = setInterval(function () {
     document.getElementById("countdownMinutes").innerHTML = minutes;
     document.getElementById("countdownSeconds").innerHTML = seconds;
 
+    document.getElementById("linkDaftarOn1").style.display = "block";
+    document.getElementById("linkDaftarOn2").style.display = "block";
+    document.getElementById("linkDaftarOn3").style.display = "block";
+
+    document.getElementById("linkDaftar1").style.display = "none";
+    document.getElementById("linkDaftar2").style.display = "none";
+    document.getElementById("linkDaftar3").style.display = "none";
+
     if (distance < 0) {
         clearInterval(x);
 
@@ -30,14 +38,28 @@ var x = setInterval(function () {
             document.getElementById("countdownHours").innerHTML = hours1;
             document.getElementById("countdownMinutes").innerHTML = minutes1;
             document.getElementById("countdownSeconds").innerHTML = seconds1;
+
+            document.getElementById("linkDaftarOn1").style.display = "none";
+            document.getElementById("linkDaftarOn2").style.display = "none";
+            document.getElementById("linkDaftarOn3").style.display = "none";
+
+            document.getElementById("linkDaftar1").style.display = "block";
+            document.getElementById("linkDaftar2").style.display = "block";
+            document.getElementById("linkDaftar3").style.display = "block";
         
             if (distance1 < 0) {
                 clearInterval(y);
         
                 document.getElementById("cooldown").innerHTML = "Terima Kasih untuk 2023";
+
+                document.getElementById("linkDaftarOn1").style.display = "block";
+                document.getElementById("linkDaftarOn2").style.display = "block";
+                document.getElementById("linkDaftarOn3").style.display = "block";
+            
+                document.getElementById("linkDaftar1").style.display = "none";
+                document.getElementById("linkDaftar2").style.display = "none";
+                document.getElementById("linkDaftar3").style.display = "none";
             }
         }, 1000);
     }
 }, 1000);
-
-document.getElementById("linkDaftar1").style.visibility = "hidden";

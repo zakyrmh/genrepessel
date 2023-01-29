@@ -37,16 +37,19 @@
                 <li class="mr-4">
                     <a class="text-lg font-medium" href="about.html">About</a>
                 </li>
-                <li class="mr-4">
+                <li class="mr-4" id="linkDaftarOn1">
                     <a class="text-lg font-medium" href="daftar.html">Daftar</a>
+                </li>
+                <li class="mr-4" id="linkDaftar1">
+                    <a class="text-lg font-medium" href="https://forms.gle/z9sKN9Rsik732MNN8">Daftar</a>
                 </li>
             </ul>
             <ul x-show="open" @click.away="open = false"
                 class="menu px-1 menu-compact dropdown-content mt-3 p-2 bg-white shadow rounded-box w-52 right-2">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="">Daftar</a></li>
-                <li><a href="https://forms.gle/z9sKN9Rsik732MNN8" id="linkDaftar1">Daftar</a></li>
+                <li id="linkDaftarOn2"><a href="">Daftar</a></li>
+                <li id="linkDaftar2"><a href="https://forms.gle/z9sKN9Rsik732MNN8">Daftar</a></li>
             </ul>
         </div>
     </header>
@@ -62,7 +65,12 @@
                 Bergabunglah bersama kami dan jadilah agent perubahan dalam melawan
                 stunting & menyambut Indonesia Emas 2045
             </p>
-            <button class="btn mb-4 btn-warning">DAFTAR</button>
+            <button class="btn mb-4 btn-warning" id="linkDaftarOn3">
+                <a href="#">DAFTAR</a>
+            </button>
+            <button class="btn mb-4 btn-warning" id="linkDaftar3">
+                <a href="#">DAFTAR</a>
+            </button>
             <div class="flex">
                 <a href="https://www.instagram.com/genre_pesisirselatan/?hl=en" target="_blank" class="mr-2">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-8">
