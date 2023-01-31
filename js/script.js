@@ -1,3 +1,12 @@
+// Tombol Navbar
+const hamburger = document.querySelector('#hamburger');
+const navMenu = document.querySelector('#nav-menu');
+
+hamburger.addEventListener('click', function(){
+  navMenu.classList.toggle('hidden');
+});
+
+// Countdown Date
 var countDownDate = new Date("Jan 30, 2023 01:00:00").getTime();
 var x = setInterval(function () {
     var now = new Date().getTime();
@@ -13,13 +22,11 @@ var x = setInterval(function () {
     document.getElementById("countdownMinutes").innerHTML = minutes;
     document.getElementById("countdownSeconds").innerHTML = seconds;
 
-    // document.getElementById("linkDaftarOn1").style.display = "block";
-    // document.getElementById("linkDaftarOn2").style.display = "block";
-    // document.getElementById("linkDaftarOn3").style.display = "block";
+    document.getElementById("linkDaftarOn1").style.display = "block";
+    document.getElementById("linkDaftarOn2").style.display = "block";
 
-    // document.getElementById("linkDaftar1").style.display = "none";
-    // document.getElementById("linkDaftar2").style.display = "none";
-    // document.getElementById("linkDaftar3").style.display = "none";
+    document.getElementById("linkDaftar1").style.display = "none";
+    document.getElementById("linkDaftar2").style.display = "none";
 
     if (distance < 0) {
         clearInterval(x);
@@ -39,13 +46,11 @@ var x = setInterval(function () {
             document.getElementById("countdownMinutes").innerHTML = minutes1;
             document.getElementById("countdownSeconds").innerHTML = seconds1;
 
-            // document.getElementById("linkDaftarOn1").style.display = "none";
-            // document.getElementById("linkDaftarOn2").style.display = "none";
-            // document.getElementById("linkDaftarOn3").style.display = "none";
+            document.getElementById("linkDaftarOn1").style.display = "none";
+            document.getElementById("linkDaftarOn2").style.display = "none";
 
-            // document.getElementById("linkDaftar1").style.display = "block";
-            // document.getElementById("linkDaftar2").style.display = "block";
-            // document.getElementById("linkDaftar3").style.display = "block";
+            document.getElementById("linkDaftar1").style.display = "block";
+            document.getElementById("linkDaftar2").style.display = "inline-flex";
         
             if (distance1 < 0) {
                 clearInterval(y);
@@ -54,11 +59,9 @@ var x = setInterval(function () {
 
                 document.getElementById("linkDaftarOn1").style.display = "block";
                 document.getElementById("linkDaftarOn2").style.display = "block";
-                document.getElementById("linkDaftarOn3").style.display = "block";
             
                 document.getElementById("linkDaftar1").style.display = "none";
                 document.getElementById("linkDaftar2").style.display = "none";
-                document.getElementById("linkDaftar3").style.display = "none";
             }
         }, 1000);
     }

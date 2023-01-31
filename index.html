@@ -26,31 +26,23 @@
                 <img class="w-12" src="./img/logo.png" alt="" /> Forum Genre Pessel
             </a>
         </div>
-        <div x-data="{ open: false }" class="flex-none dropdown">
-            <button class="md:hidden" @click="open = !open" :aria-expanded="open ? 'true' : 'false'">
+        <div>
+            <button class="mr-3 md:hidden" type="button" id="hamburger" name="hamburger">
                 <i class="uil uil-apps mr-4"></i>
             </button>
-            <ul class="hidden menu md:menu-horizontal px-1 menu-compact mt-3 p-2right-2">
-                <li class="mr-4">
-                    <a class="text-lg font-medium" href="index.html">Home</a>
-                </li>
-                <li class="mr-4">
-                    <a class="text-lg font-medium" href="about.html">About</a>
-                </li>
-                <!-- <li class="mr-4" id="linkDaftarOn1">
-                    <a class="text-lg font-medium" href="#waktuPendaftaran">Daftar</a>
-                </li> -->
-                <li class="mr-4" id="">
-                    <a class="text-lg font-medium" href="https://forms.gle/qZwkGkTGUTxXuzn27" target="_blank">Daftar</a>
-                </li>
-            </ul>
-            <ul x-show="open" @click.away="open = false"
-                class="menu px-1 menu-compact dropdown-content mt-3 p-2 bg-white shadow rounded-box w-52 right-2">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <!-- <li id="linkDaftarOn2"><a href="#waktuPendaftaran">Daftar</a></li> -->
-                <li id=""><a href="https://forms.gle/qZwkGkTGUTxXuzn27" target="_blank">Daftar</a></li>
-            </ul>
+            <div class="fixed hidden left-0 w-full mt-36 bg-white shadow text-center md:flex md:static md:bg-transparent md:mt-0 md:shadow-none md:items-center md:justify-evenly md:w-96 md:mr-6"
+                id="nav-menu">
+                <div class="my-3">
+                    <a class="font-medium" href="index.html">Home</a>
+                </div>
+                <div class="my-3">
+                    <a class="font-medium" href="about.html">About</a>
+                </div>
+                <div class="my-3">
+                    <a class="font-medium" href="#waktuPendaftaran" id="linkDaftarOn1">Daftar</a>
+                    <a class="font-medium" href="https://forms.gle/qZwkGkTGUTxXuzn27" id="linkDaftar1">Daftar</a>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -58,17 +50,15 @@
     <section class="mb-40 md:mb-80">
         <img class="absolute -z-10 h-[40rem] object-cover top-0 md:w-full md:top-16" src="./img/background.png"
             alt="" />
-        <div class="mt-40 mx-4 text-rose-500 md:mx-16">
+        <div class="mt-40 mx-4 text-white md:mx-16">
             <h1 class="text-4xl font-bold mb-2 color-white">Get Ready Your Self</h1>
             <h3 class="text-xl font-semibold mb-2 color-white">GenRe 2023</h3>
             <p class="text-lg font-semibold mb-4 md:mb-8 color-white">
                 Bergabunglah bersama kami dan jadilah agen perubahan dalam menurunkan
                 stunting demi menyambut Indonesia Emas 2045
             </p>
-            <!-- <button class="btn mb-4 btn-warning" id="linkDaftarOn3">
-                <a href="#waktuPendaftaran">DAFTAR</a>
-            </button> -->
-            <a class="btn mb-4 btn-warning" href="https://forms.gle/qZwkGkTGUTxXuzn27" target="_blank">DAFTAR</a>
+            <a class="btn mb-4 btn-warning" href="#waktuPendaftaran" target="_blank" id="linkDaftarOn2">DAFTAR</a>
+            <a class="btn mb-4 btn-warning" href="https://forms.gle/qZwkGkTGUTxXuzn27" target="_blank" id="linkDaftar2">DAFTAR</a>
             <div class="flex">
                 <a href="https://www.instagram.com/genre_pesisirselatan/?hl=en" target="_blank" class="mr-2">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-8">
